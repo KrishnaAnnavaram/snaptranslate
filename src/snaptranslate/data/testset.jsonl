@@ -1,0 +1,36 @@
+{"id": "de-01", "src_lang": "de", "tgt_lang": "en", "src": "Der Bahnhof ist heute geschlossen.", "ref": "The train station is closed today."}
+{"id": "de-02", "src_lang": "de", "tgt_lang": "en", "src": "Bitte nicht rauchen.", "ref": "Please do not smoke."}
+{"id": "de-03", "src_lang": "de", "tgt_lang": "en", "src": "Der Ausgang ist links.", "ref": "The exit is on the left."}
+{"id": "de-04", "src_lang": "de", "tgt_lang": "en", "src": "Die Toiletten sind im ersten Stock.", "ref": "The toilets are on the first floor."}
+{"id": "de-05", "src_lang": "de", "tgt_lang": "en", "src": "Das Museum ist am Montag geschlossen.", "ref": "The museum is closed on Monday."}
+{"id": "de-06", "src_lang": "de", "tgt_lang": "en", "src": "Wo ist die Apotheke?", "ref": "Where is the pharmacy?"}
+{"id": "de-07", "src_lang": "de", "tgt_lang": "en", "src": "Eintritt frei für Kinder.", "ref": "Free entry for children."}
+{"id": "de-08", "src_lang": "de", "tgt_lang": "en", "src": "Der Zug nach Berlin hat Verspätung.", "ref": "The train to Berlin is delayed."}
+{"id": "de-09", "src_lang": "de", "tgt_lang": "en", "src": "Frühstück von sieben bis zehn Uhr.", "ref": "Breakfast from seven to ten o'clock."}
+{"id": "de-10", "src_lang": "de", "tgt_lang": "en", "src": "Kein Zugang für Fahrräder.", "ref": "No access for bicycles."}
+{"id": "de-11", "src_lang": "de", "tgt_lang": "en", "src": "Die Küche ist bis Mitternacht geöffnet.", "ref": "The kitchen is open until midnight."}
+{"id": "de-12", "src_lang": "de", "tgt_lang": "en", "src": "Bitte halten Sie Abstand zur Bahnsteigkante.", "ref": "Please keep away from the edge of the platform."}
+{"id": "fr-01", "src_lang": "fr", "tgt_lang": "en", "src": "La gare est fermée aujourd'hui.", "ref": "The station is closed today."}
+{"id": "fr-02", "src_lang": "fr", "tgt_lang": "en", "src": "Défense de fumer.", "ref": "No smoking."}
+{"id": "fr-03", "src_lang": "fr", "tgt_lang": "en", "src": "La sortie est à gauche.", "ref": "The exit is on the left."}
+{"id": "fr-04", "src_lang": "fr", "tgt_lang": "en", "src": "Les toilettes sont au premier étage.", "ref": "The toilets are on the first floor."}
+{"id": "fr-05", "src_lang": "fr", "tgt_lang": "en", "src": "Le musée est fermé le lundi.", "ref": "The museum is closed on Mondays."}
+{"id": "fr-06", "src_lang": "fr", "tgt_lang": "en", "src": "Où est la pharmacie ?", "ref": "Where is the pharmacy?"}
+{"id": "fr-07", "src_lang": "fr", "tgt_lang": "en", "src": "Entrée gratuite pour les enfants.", "ref": "Free entry for children."}
+{"id": "fr-08", "src_lang": "fr", "tgt_lang": "en", "src": "Le train pour Paris est en retard.", "ref": "The train to Paris is late."}
+{"id": "fr-09", "src_lang": "fr", "tgt_lang": "en", "src": "Petit déjeuner de sept à dix heures.", "ref": "Breakfast from seven to ten o'clock."}
+{"id": "fr-10", "src_lang": "fr", "tgt_lang": "en", "src": "Accès interdit aux vélos.", "ref": "No access for bicycles."}
+{"id": "fr-11", "src_lang": "fr", "tgt_lang": "en", "src": "La cuisine est ouverte jusqu'à minuit.", "ref": "The kitchen is open until midnight."}
+{"id": "fr-12", "src_lang": "fr", "tgt_lang": "en", "src": "Veuillez composter votre billet avant de monter.", "ref": "Please validate your ticket before boarding."}
+{"id": "es-01", "src_lang": "es", "tgt_lang": "en", "src": "La estación está cerrada hoy.", "ref": "The station is closed today."}
+{"id": "es-02", "src_lang": "es", "tgt_lang": "en", "src": "Prohibido fumar.", "ref": "No smoking."}
+{"id": "es-03", "src_lang": "es", "tgt_lang": "en", "src": "La salida está a la izquierda.", "ref": "The exit is on the left."}
+{"id": "es-04", "src_lang": "es", "tgt_lang": "en", "src": "Los baños están en el primer piso.", "ref": "The toilets are on the first floor."}
+{"id": "es-05", "src_lang": "es", "tgt_lang": "en", "src": "El museo está cerrado los lunes.", "ref": "The museum is closed on Mondays."}
+{"id": "es-06", "src_lang": "es", "tgt_lang": "en", "src": "¿Dónde está la farmacia?", "ref": "Where is the pharmacy?"}
+{"id": "es-07", "src_lang": "es", "tgt_lang": "en", "src": "Entrada gratuita para niños.", "ref": "Free entry for children."}
+{"id": "es-08", "src_lang": "es", "tgt_lang": "en", "src": "El tren a Madrid lleva retraso.", "ref": "The train to Madrid is delayed."}
+{"id": "es-09", "src_lang": "es", "tgt_lang": "en", "src": "Desayuno de siete a diez.", "ref": "Breakfast from seven to ten."}
+{"id": "es-10", "src_lang": "es", "tgt_lang": "en", "src": "Prohibido el paso de bicicletas.", "ref": "No access for bicycles."}
+{"id": "es-11", "src_lang": "es", "tgt_lang": "en", "src": "La cocina está abierta hasta medianoche.", "ref": "The kitchen is open until midnight."}
+{"id": "es-12", "src_lang": "es", "tgt_lang": "en", "src": "Por favor, valide su billete antes de subir al tren.", "ref": "Please validate your ticket before you board the train."}

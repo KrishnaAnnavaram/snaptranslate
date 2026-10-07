@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snaptranslate"
+version = "0.1.0"
+description = "Point, snap, translate: an OCR travel translator"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Krishna Annavaram" }]
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "pydantic>=2.5"]
+
+[project.optional-dependencies]
+# Tesseract OCR wrapper and image loading. The Tesseract binary and language packs are system packages.
+ocr = ["pytesseract>=0.3.10", "Pillow>=10"]
+# MarianMT and NLLB-200 neural translation (large downloads).
+mt = ["transformers>=4.40", "sentencepiece>=0.2", "sacremoses>=0.1", "torch>=2.1"]
+# Statistical language identification as an alternative to the built-in detector.
+langdetect = ["langdetect>=1.0.9"]
+# Reference metric implementation for cross-checks.
+metrics = ["sacrebleu>=2.4"]
+# Streamlit page with browser camera input.
+ui = ["streamlit>=1.40", "Pillow>=10"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+snaptranslate = "snaptranslate.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+snaptranslate = ["data/*.json", "data/*.jsonl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

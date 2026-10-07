@@ -1,0 +1,35 @@
+# secrets and local config
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# local data: test sets, photos, exports (never commit)
+/data/*
+!/data/README.md
+/models/
+/outputs/
+/history/
+*.db
+*.sqlite
+*.sqlite3
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.argosmodel
+*.exe
+*.zip
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/

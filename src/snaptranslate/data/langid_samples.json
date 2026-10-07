@@ -1,0 +1,113 @@
+{
+  "note": "Author-written training sentences for the built-in Latin-script language detector. CC0-1.0.",
+  "samples": {
+    "en": [
+      "Where is the nearest train station, please?",
+      "The museum opens at nine in the morning and closes at six.",
+      "Could I have the bill when you have a moment?",
+      "This street is closed for repairs until next week.",
+      "Please keep your ticket until the end of the journey.",
+      "The pharmacy on the corner is open every day of the week.",
+      "We would like a table for two near the window.",
+      "Do not leave your luggage without supervision.",
+      "How much does a single ticket to the airport cost?",
+      "The breakfast is served between seven and ten o'clock."
+    ],
+    "de": [
+      "Wo ist der nächste Bahnhof, bitte?",
+      "Das Museum öffnet um neun Uhr und schließt um achtzehn Uhr.",
+      "Könnte ich bitte die Rechnung bekommen?",
+      "Diese Straße ist wegen Bauarbeiten bis nächste Woche gesperrt.",
+      "Bitte bewahren Sie Ihre Fahrkarte bis zum Ende der Fahrt auf.",
+      "Die Apotheke an der Ecke ist jeden Tag geöffnet.",
+      "Wir hätten gern einen Tisch für zwei Personen am Fenster.",
+      "Lassen Sie Ihr Gepäck nicht unbeaufsichtigt.",
+      "Was kostet eine einfache Fahrt zum Flughafen?",
+      "Das Frühstück gibt es zwischen sieben und zehn Uhr."
+    ],
+    "fr": [
+      "Où se trouve la gare la plus proche, s'il vous plaît ?",
+      "Le musée ouvre à neuf heures et ferme à dix-huit heures.",
+      "Pourrais-je avoir l'addition, s'il vous plaît ?",
+      "Cette rue est fermée pour travaux jusqu'à la semaine prochaine.",
+      "Veuillez conserver votre billet jusqu'à la fin du trajet.",
+      "La pharmacie du coin est ouverte tous les jours de la semaine.",
+      "Nous voudrions une table pour deux près de la fenêtre.",
+      "Ne laissez pas vos bagages sans surveillance.",
+      "Combien coûte un aller simple pour l'aéroport ?",
+      "Le petit déjeuner est servi entre sept et dix heures."
+    ],
+    "es": [
+      "¿Dónde está la estación de tren más cercana, por favor?",
+      "El museo abre a las nueve de la mañana y cierra a las seis.",
+      "¿Me puede traer la cuenta, por favor?",
+      "Esta calle está cerrada por obras hasta la próxima semana.",
+      "Por favor, conserve su billete hasta el final del viaje.",
+      "La farmacia de la esquina abre todos los días de la semana.",
+      "Quisiéramos una mesa para dos cerca de la ventana.",
+      "No deje su equipaje sin vigilancia.",
+      "¿Cuánto cuesta un billete sencillo al aeropuerto?",
+      "El desayuno se sirve entre las siete y las diez."
+    ],
+    "it": [
+      "Dov'è la stazione ferroviaria più vicina, per favore?",
+      "Il museo apre alle nove e chiude alle diciotto.",
+      "Potrei avere il conto, per favore?",
+      "Questa strada è chiusa per lavori fino alla prossima settimana.",
+      "Si prega di conservare il biglietto fino alla fine del viaggio.",
+      "La farmacia all'angolo è aperta tutti i giorni della settimana.",
+      "Vorremmo un tavolo per due vicino alla finestra.",
+      "Non lasciate i bagagli incustoditi.",
+      "Quanto costa un biglietto di sola andata per l'aeroporto?",
+      "La colazione è servita tra le sette e le dieci."
+    ],
+    "pt": [
+      "Onde fica a estação de comboios mais próxima, por favor?",
+      "O museu abre às nove da manhã e fecha às seis da tarde.",
+      "Pode trazer a conta, por favor?",
+      "Esta rua está fechada para obras até a próxima semana.",
+      "Por favor, guarde o seu bilhete até o fim da viagem.",
+      "A farmácia da esquina está aberta todos os dias da semana.",
+      "Queríamos uma mesa para dois perto da janela.",
+      "Não deixe a sua bagagem sem vigilância.",
+      "Quanto custa um bilhete de ida para o aeroporto?",
+      "O pequeno-almoço é servido entre as sete e as dez horas."
+    ],
+    "nl": [
+      "Waar is het dichtstbijzijnde treinstation, alstublieft?",
+      "Het museum gaat om negen uur open en sluit om zes uur.",
+      "Mag ik de rekening, alstublieft?",
+      "Deze straat is tot volgende week afgesloten wegens werkzaamheden.",
+      "Bewaar uw kaartje tot het einde van de reis.",
+      "De apotheek op de hoek is elke dag van de week open.",
+      "Wij willen graag een tafel voor twee bij het raam.",
+      "Laat uw bagage niet onbeheerd achter.",
+      "Hoeveel kost een enkeltje naar het vliegveld?",
+      "Het ontbijt wordt geserveerd tussen zeven en tien uur."
+    ],
+    "tr": [
+      "En yakın tren istasyonu nerede, lütfen?",
+      "Müze sabah dokuzda açılır ve akşam altıda kapanır.",
+      "Hesabı alabilir miyim, lütfen?",
+      "Bu sokak gelecek haftaya kadar onarım nedeniyle kapalıdır.",
+      "Lütfen biletinizi yolculuğun sonuna kadar saklayın.",
+      "Köşedeki eczane haftanın her günü açıktır.",
+      "Pencere kenarında iki kişilik bir masa istiyoruz.",
+      "Bagajınızı gözetimsiz bırakmayın.",
+      "Havalimanına tek yön bilet ne kadar?",
+      "Kahvaltı yedi ile on arasında servis edilir."
+    ],
+    "pl": [
+      "Gdzie jest najbliższy dworzec kolejowy, proszę?",
+      "Muzeum jest otwarte od dziewiątej rano do szóstej wieczorem.",
+      "Czy mogę prosić o rachunek?",
+      "Ta ulica jest zamknięta z powodu remontu do przyszłego tygodnia.",
+      "Proszę zachować bilet do końca podróży.",
+      "Apteka na rogu jest czynna codziennie.",
+      "Chcielibyśmy stolik dla dwóch osób przy oknie.",
+      "Nie zostawiaj bagażu bez opieki.",
+      "Ile kosztuje bilet w jedną stronę na lotnisko?",
+      "Śniadanie jest serwowane od siódmej do dziesiątej."
+    ]
+  }
+}

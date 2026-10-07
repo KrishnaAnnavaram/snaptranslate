@@ -1,0 +1,103 @@
+{
+  "note": "Author-written travel glossary for the offline demo backend. Word-by-word output is an approximation, not a translation. CC0-1.0.",
+  "target": "en",
+  "languages": {
+    "de": {
+      "phrases": {
+        "bitte nicht rauchen": "please do not smoke",
+        "rauchen verboten": "no smoking",
+        "hat verspätung": "is delayed",
+        "ersten stock": "first floor",
+        "im ersten stock": "on the first floor",
+        "eintritt frei": "free entry",
+        "kein zugang": "no access",
+        "von sieben bis zehn uhr": "from seven to ten o'clock",
+        "ist links": "is on the left",
+        "ist rechts": "is on the right"
+      },
+      "words": {
+        "der": "the", "die": "the", "das": "the", "den": "the", "dem": "the", "ein": "a", "eine": "a",
+        "ist": "is", "sind": "are", "hat": "has", "bitte": "please", "nicht": "not", "kein": "no", "keine": "no",
+        "bahnhof": "train station", "zug": "train", "nach": "to", "heute": "today", "morgen": "tomorrow",
+        "geschlossen": "closed", "geöffnet": "open", "offen": "open", "ausgang": "exit", "eingang": "entrance",
+        "links": "left", "rechts": "right", "toiletten": "toilets", "toilette": "toilet", "stock": "floor",
+        "museum": "museum", "am": "on", "montag": "Monday", "sonntag": "Sunday", "wo": "where",
+        "apotheke": "pharmacy", "eintritt": "entry", "frei": "free", "für": "for", "kinder": "children",
+        "frühstück": "breakfast", "von": "from", "bis": "until", "uhr": "o'clock", "sieben": "seven", "zehn": "ten",
+        "zugang": "access", "fahrräder": "bicycles", "küche": "kitchen", "achtung": "caution", "stufe": "step",
+        "im": "in the", "und": "and", "oder": "or", "mit": "with", "ohne": "without", "hier": "here",
+        "fahrkarte": "ticket", "gleis": "platform", "flughafen": "airport", "straße": "street", "rechnung": "bill"
+      }
+    },
+    "fr": {
+      "phrases": {
+        "défense de fumer": "no smoking",
+        "interdit de fumer": "no smoking",
+        "à gauche": "on the left",
+        "à droite": "on the right",
+        "premier étage": "first floor",
+        "au premier étage": "on the first floor",
+        "petit déjeuner": "breakfast",
+        "en retard": "late",
+        "accès interdit": "no access",
+        "attention à la marche": "mind the step",
+        "jusqu'à": "until",
+        "aujourd'hui": "today",
+        "le lundi": "on Mondays"
+      },
+      "words": {
+        "le": "the", "la": "the", "les": "the", "l'": "the", "un": "a", "une": "a", "des": "some",
+        "est": "is", "sont": "are", "gare": "station", "train": "train", "pour": "for", "fermée": "closed",
+        "fermé": "closed", "ouverte": "open", "ouvert": "open", "sortie": "exit", "entrée": "entry",
+        "toilettes": "toilets", "musée": "museum", "lundi": "Monday", "où": "where", "pharmacie": "pharmacy",
+        "gratuite": "free", "gratuit": "free", "enfants": "children", "de": "from", "à": "to", "sept": "seven",
+        "dix": "ten", "heures": "o'clock", "aux": "for", "vélos": "bicycles", "cuisine": "kitchen",
+        "minuit": "midnight", "et": "and", "ou": "or", "avec": "with", "sans": "without", "ici": "here",
+        "billet": "ticket", "quai": "platform", "aéroport": "airport", "rue": "street", "addition": "bill",
+        "attention": "caution", "marche": "step"
+      }
+    },
+    "es": {
+      "phrases": {
+        "prohibido fumar": "no smoking",
+        "a la izquierda": "on the left",
+        "a la derecha": "on the right",
+        "primer piso": "first floor",
+        "en el primer piso": "on the first floor",
+        "lleva retraso": "is delayed",
+        "los lunes": "on Mondays",
+        "prohibido el paso de": "no access for",
+        "cuidado con el escalón": "mind the step",
+        "entrada gratuita": "free entry"
+      },
+      "words": {
+        "el": "the", "la": "the", "los": "the", "las": "the", "un": "a", "una": "a",
+        "está": "is", "están": "are", "es": "is", "estación": "station", "tren": "train", "a": "to",
+        "cerrada": "closed", "cerrado": "closed", "abierta": "open", "abierto": "open", "hoy": "today",
+        "salida": "exit", "entrada": "entry", "baños": "toilets", "museo": "museum", "lunes": "Monday",
+        "dónde": "where", "farmacia": "pharmacy", "gratuita": "free", "para": "for", "niños": "children",
+        "desayuno": "breakfast", "de": "from", "siete": "seven", "diez": "ten", "bicicletas": "bicycles",
+        "cocina": "kitchen", "hasta": "until", "y": "and", "o": "or", "con": "with", "sin": "without",
+        "aquí": "here", "billete": "ticket", "andén": "platform", "aeropuerto": "airport", "calle": "street",
+        "cuenta": "bill", "cuidado": "caution", "prohibido": "forbidden"
+      }
+    },
+    "it": {
+      "phrases": {
+        "vietato fumare": "no smoking",
+        "a sinistra": "on the left",
+        "a destra": "on the right",
+        "primo piano": "first floor",
+        "in ritardo": "late"
+      },
+      "words": {
+        "il": "the", "la": "the", "lo": "the", "i": "the", "gli": "the", "le": "the", "è": "is", "sono": "are",
+        "stazione": "station", "treno": "train", "chiuso": "closed", "chiusa": "closed", "aperto": "open",
+        "aperta": "open", "oggi": "today", "uscita": "exit", "entrata": "entrance", "bagni": "toilets",
+        "museo": "museum", "lunedì": "Monday", "dove": "where", "farmacia": "pharmacy", "gratuito": "free",
+        "per": "for", "bambini": "children", "colazione": "breakfast", "cucina": "kitchen", "fino": "until",
+        "mezzanotte": "midnight", "biglietto": "ticket", "binario": "platform", "aeroporto": "airport"
+      }
+    }
+  }
+}
