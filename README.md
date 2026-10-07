@@ -1,6 +1,6 @@
 <div align="center">
 
-# snaptranslate — Point, Snap, Translate: an OCR Travel Translator
+# snaptranslate — Point, Snap, Translate: An OCR Travel Translator
 
 **snaptranslate is an OCR translator for travellers who need to read signs, menus and notices in another language. It takes a photo or a text through these steps to a labelled translation:**
 
@@ -107,7 +107,7 @@ snaptranslate gives each of these questions its own component. Each component ha
 | Providers | MarianMT (28 pairs), NLLB-200 (all 16 languages), any OpenAI-compatible LLM API. All are optional |
 | Offline mode | Built-in detector, glossary backend (de, fr, es, it to English), benchmark. No key and no network |
 | Safety | No secret in code. No installer, no subprocess, no server camera. History stays in one session |
-| Tests | **76** unit tests (`pytest`): 75 pass, 1 skips when `sacrebleu` is not installed |
+| Tests | **75** unit tests pass in CI (`pytest`), 1 skips without the `metrics` extra (`sacrebleu`) |
 
 ```mermaid
 flowchart LR
@@ -164,7 +164,7 @@ snaptranslate/
 │   ├── app/streamlit_app.py       # optional browser page
 │   ├── data/                      # synthetic test set, glossary, detector samples
 │   └── ...                        # the other modules in 2.1
-├── tests/                         # 76 unit tests, no network
+├── tests/                         # 76 unit tests, no network (1 needs sacrebleu)
 ├── .env.example                   # variable names only
 └── pyproject.toml                 # core deps: numpy, pydantic. Extras: ocr, mt, langdetect, metrics, ui, dev
 ```
@@ -466,7 +466,7 @@ All numbers come from `snaptranslate benchmark --backends glossary --condition a
 
 | Validation | Result | Command |
 |---|---|---|
-| Unit tests | **75 passed, 1 skipped** (local and expected CI) | `pytest -q` |
+| Unit tests (CI installs only `.[dev]`) | **75 passed, 1 skipped** (the `sacrebleu` cross-check needs the `metrics` extra) | `pytest -q` |
 | Metric check | BLEU and chrF equal `sacrebleu` 2.x to 1e-6 on a fixed sample | `pytest tests/test_metrics_benchmark.py` with `sacrebleu` |
 | Detector accuracy | **0.917** (33 of 36). Misses: 3 short signs (`Défense de fumer.`, `Prohibido fumar.`, `Entrada gratuita para niños.`) | `snaptranslate benchmark` |
 
@@ -505,8 +505,7 @@ Read these problems before you use snaptranslate in production.
 | 5 | OCR | There is no deskew and no text-region detection | Photos at an angle give poor OCR. Take the photo straight on |
 | 6 | Benchmark | The bundled test set has 36 sentences, so the intervals are wide | Use FLORES-200 for decisions |
 | 7 | Metrics | No COMET score | Add COMET when a GPU is available |
-| 8 | LLM | The LLM API receives the source text | Do not send private text to an external API. Prefer local models |
-| 9 | Prototype key | The prototype had a DeepSeek key in its code | Treat that key as leaked. Revoke it at the provider |
+| 8 | LLM | The LLM API receives the source text | Do not send private text to an external API. Prefer models that run on your computer |
 
 ---
 
